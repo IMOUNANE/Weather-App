@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+   
+	
+</head>
+<body>
+    
+
+    <div class="container" id="item1" >
+        <div class="app-title">
+            <p>Search City</p>
+        </div>
+        <div class="formulaire">
+            <input type="text" id="city"></input>
+        </div>
+        <div>
+            <button type="submit"  id="call">Click</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="container" id="item2" style="display:none">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+            <div>
+                <button type="submit"  id="restart">Restart</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
