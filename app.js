@@ -49,11 +49,7 @@ btnrestart.addEventListener("click",function(){
 
 
 
-// SHOW ERROR WHEN THERE IS AN ISSUE WITH GEOLOCATION SERVICE
-function showError(error){
-    notificationElement.style.display = "block";
-    notificationElement.innerHTML = `<p> ${error.message} </p>`;
-}
+
 
 // GET WEATHER FROM API PROVIDER
 function getWeather(input){
